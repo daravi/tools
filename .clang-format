@@ -1,0 +1,29 @@
+# YAML format. See https://clang.llvm.org/docs/ClangFormatStyleOptions.html for options.
+AlignAfterOpenBracket: Align
+AlignTrailingComments: true
+AllowShortBlocksOnASingleLine: true
+AllowShortFunctionsOnASingleLine: true
+BasedOnStyle: Google # one of LLVM, Google, Chromium, Mozilla, WebKit
+UseTab: Always
+# IndentWidth: (VS Code current setting)
+IndentWidth: 4
+BreakBeforeBraces: Custom
+# IndentCaseLabels: false
+# ColumnLimit: 0
+# AccessModifierOffset: 2 # e.g. public
+BraceWrapping:
+  AfterClass: true
+  AfterControlStatement: true
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterObjCDeclaration: true
+  AfterStruct: true
+  AfterUnion: true
+  AfterExternBlock: true
+  BeforeCatch: true
+  BeforeElse: true
+  IndentBraces: true
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
