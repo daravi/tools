@@ -62,5 +62,31 @@
   "C_Cpp.default.cppStandard": "c++17",
   "C_Cpp.default.cStandard": "c11",
   "C_Cpp.default.intelliSenseMode": "clang-x64",
-  "C_Cpp.clang_format_path": "/usr/local/bin/clang-format"
+  "C_Cpp.clang_format_path": "/usr/local/bin/clang-format",
+  "telemetry.enableTelemetry": false,
+  "shellLauncher.shells.windows": [
+    {
+      "shell": "C:\\Windows\\System32\\cmd.exe",
+      "label": "cmd"
+    },
+    {
+      "shell": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "label": "PowerShell"
+    },
+    {
+      "shell": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "label": "Git bash",
+      "args": [
+        "-l",
+        "--cd=%USERPROFILE%\\dev"
+      ]
+    },
+    {
+      "shell": "C:\\Windows\\System32\\bash.exe",
+      "label": "WSL Bash",
+      "args": [
+        "-l"
+      ]
+    }
+  ]
 }
