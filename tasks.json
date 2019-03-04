@@ -10,6 +10,7 @@
         "-g",
         "-Wall",
         "${relativeFile}",
+        "-O0",
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}.o",
         "-std=c++17"
