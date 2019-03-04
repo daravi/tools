@@ -1,3 +1,50 @@
+// Place your key bindings in this file to overwrite the defaults
 [
-    { "key": "ctrl+alt+`", "command": "shellLauncher.launch" }
+  {
+    "key": "cmd+r",
+    "command": "python.execInTerminal"
+  },
+  {
+    "key": "ctrl+cmd+t",
+    "command": "workbench.action.tasks.test"
+  },
+  {
+    "key": "cmd+l",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "cmd+y",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+d",
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+d",
+    "command": "workbench.action.debug.start",
+    "when": "!inDebugMode"
+  },
+  {
+    "key": "f5",
+    "command": "-workbench.action.debug.start",
+    "when": "!inDebugMode"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  // multi-command extention
+  {
+    "key": "shift+cmd+k",
+    "command": "multiCommand.clearTerminalandDebugConsole"
+  },
+  // shell launcher extention
+  {
+    "key": "cmd+alt+`",
+    "command": "shellLauncher.launch"
+  }
 ]
