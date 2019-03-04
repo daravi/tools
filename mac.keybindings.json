@@ -1,0 +1,18 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "cmd+d",
+    "command": "workbench.action.debug.start",
+    "when": "!inDebugMode"
+  },
+  // multi-command extention
+  {
+    "key": "shift+cmd+k",
+    "command": "multiCommand.clearTerminalandDebugConsole"
+  },
+  // shell launcher extention - Mac
+  {
+    "key": "cmd+alt+`",
+    "command": "shellLauncher.launch"
+  }
+]
