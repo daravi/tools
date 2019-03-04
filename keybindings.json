@@ -1,28 +1,6 @@
 // Place your key bindings in this file to overwrite the defaults
 [
   {
-    "key": "cmd+r",
-    "command": "python.execInTerminal"
-  },
-  {
-    "key": "ctrl+cmd+t",
-    "command": "workbench.action.tasks.test"
-  },
-  {
-    "key": "cmd+l",
-    "command": "workbench.action.toggleActivityBarVisibility"
-  },
-  {
-    "key": "cmd+y",
-    "command": "editor.action.addSelectionToNextFindMatch",
-    "when": "editorFocus"
-  },
-  {
-    "key": "cmd+d",
-    "command": "-editor.action.addSelectionToNextFindMatch",
-    "when": "editorFocus"
-  },
-  {
     "key": "cmd+d",
     "command": "workbench.action.debug.start",
     "when": "!inDebugMode"
@@ -32,19 +10,24 @@
     "command": "-workbench.action.debug.start",
     "when": "!inDebugMode"
   },
-  {
-    "key": "shift+cmd+k",
-    "command": "-editor.action.deleteLines",
-    "when": "textInputFocus && !editorReadonly"
-  },
-  // multi-command extention
+  // multi-command extention- Mac
   {
     "key": "shift+cmd+k",
     "command": "multiCommand.clearTerminalandDebugConsole"
   },
-  // shell launcher extention
+  // multi-command extention - Windows
+  {
+    "key": "shift+ctrl+k",
+    "command": "multiCommand.clearTerminalandDebugConsole"
+  },
+  // shell launcher extention - Mac
   {
     "key": "cmd+alt+`",
+    "command": "shellLauncher.launch"
+  },
+  // shell launcher extention - Windows
+  {
+    "key": "ctrl+alt+`",
     "command": "shellLauncher.launch"
   }
 ]
